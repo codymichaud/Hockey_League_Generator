@@ -2,3 +2,17 @@
     color: blueviolet;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+body{
+    background-color: lightgray;
+}
+
+#formFill{
+    border: 5px solid gray ;
+    margin: 25px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+}
