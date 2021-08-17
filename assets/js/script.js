@@ -1,9 +1,17 @@
 console.log('hello');
-const submit = document.querySelector('#submitBtn');
-
+var submit = document.querySelector('#submitBtn');
+let numOfTeams = 0;
+let teams = "";
+let teamCity = "";
 submit.addEventListener("click", function submit() {
-    var teamName = document.getElementById('teamName').value;
-    var teamLocat = document.getElementById('teamLocat').value;
+    var teamName = document.querySelector('#teamName').value;
+    var teamLocat = document.querySelector('#teamLocat').value;
     console.log(teamName);
     console.log(teamLocat);
-})
+    teamName.push(teams);
+    teamLocat.push(teamCity);
+
+});
+console.log(numOfTeams);
+console.log(teams);
+console.log(teamCity);
